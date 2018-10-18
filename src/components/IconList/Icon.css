@@ -1,16 +1,24 @@
 i{
-  color: rgb(194, 194, 194);
+  color: rgb(244, 244, 244);
   font-size: 50px;
 }
 i:hover{
-  color: rgb(141, 141, 141);
-  cursor:  pointer;
+  cursor:pointer;
+  text-shadow: 0px 0px 24px rgba(0,100,2500,0.5), 1px 3px 5px rgba(0, 255, 179, 0.377);
+}
+div:hover > h6, {
+  cursor:pointer;
+  text-decoration:underline;
+  text-shadow: 0px 1px 5px rgba(0,0,0, 0.2);
 }
 i:active{
-  color: rgb(141, 141, 141);
-
-  text-shadow: 0px 1px 5px rgba(0,0,0, 0.6)
+  text-shadow: 0px 0px 24px rgba(0,100,2500,0.5), 1px 3px 5px rgba(0, 255, 179, 0.377);
+  text-decoration:none;
 }
-i#selected{
+i:hover:not{
+  display:none;
+  text-decoration:none;
+}
+i.selected{
   text-shadow: 0px 0px 5px #000
 }
