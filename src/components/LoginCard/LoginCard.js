@@ -7,7 +7,6 @@ import { NameInput } from "./NameInput";
 
 const LoginCard = props => (
   <div className="card bg-light" {...props}>
-  <div className="card-header"><small>close</small></div>
     <div className="card-body border-light">
       <h2 className="text-dark mb-4">Login</h2>
       <NameInput />
